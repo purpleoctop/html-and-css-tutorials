@@ -1,17 +1,15 @@
-
-
-.link{
-display:block;
-height: 20x; 
-
-margin-bottom: 10px;
-padding:10px;
-background-color: blue;
-color:#ffffff;
-border: 3px solid green
+*{
+    box-sizing:border-box;
 }
 
-nav a:last-child{ 
-    margin-bottom: 0px;
-}
 
+
+.block{
+    
+    height:200px;
+    width:200px;
+    padding:10px;
+    border: 5px solid green;
+    margin:20px;
+  
+}
