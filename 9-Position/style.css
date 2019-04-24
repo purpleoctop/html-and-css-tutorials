@@ -1,29 +1,31 @@
-*{
+* {
     box-sizing: border-box;
  }
- .wrap{
-    padding: 50px;
+ 
+ .notification {
+    position: fixed;
+    top: 30px;
+    right: 40px;
+    border: 1px solid  gray;
+    padding: 15px;
  }
-
-
- .item{
-     position: relative;
-     display:inline-block;
-     height: 50px;
-     width: 50px;
-     background-color: grey;
-     border-radius: 10px;
-     margin-right: 10px;
+ 
+ .text {
+    display: block;
+    max-width: 300px;
  }
- .label{
-     position:absolute;
-     right:0;
-     top:0;
-     transform: translate(50%, -50%);
-     height:20px;
-     background-color: red;
-     color: #ffff;
-     border:1px solid #ffff;
-     border-radius:10px;
-     padding: 1px 5px;
+ 
+ p {
+    font-size: 24px;
+    font-weight: 800px;
+    margin-top: 0;
  }
+ 
+ .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: gray;
+    text-decoration: none;
+ }
+ 
