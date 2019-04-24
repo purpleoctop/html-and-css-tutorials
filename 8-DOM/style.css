@@ -1,13 +1,11 @@
-*{
-    box-sizing:border-box;
+.table{
+    display:table;
 }
 
+.tr{
+    display:table-row;
+}
 
-
-.block{
-    display: inline-block;
-    height:100px;
-    width:100px;
-    background-color: blue;
-   
+.td{
+    display:table-cell;
 }
