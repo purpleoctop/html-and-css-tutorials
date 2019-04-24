@@ -1,11 +1,15 @@
 
 
-.style{
-
-height: 100px; 
-width: 30px;
-background-color: greenyellow;
+.link{
 display:block;
-padding: 10px;
-color:black;
+height: 20x; 
+width: 30px;
+margin-bottom: 10px;
+padding:10px;
+background-color: blue;
+color:#ffffff
+}
+
+nav a:last-child{ 
+    margin-bottom: 0px;
 }
