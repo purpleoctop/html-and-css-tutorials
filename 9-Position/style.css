@@ -2,30 +2,28 @@
     box-sizing: border-box;
  }
  
- .notification {
-    position: fixed;
-    top: 30px;
-    right: 40px;
-    border: 1px solid  gray;
-    padding: 15px;
+ .wrap {
+    position: relative;
+    height: 100px;
+    width: 800px;
+    margin: 0 auto;
+    border: 1px solid gray;
+ }
+ 
+ .line {
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    background-color: gray;
+    top: 50%;
+    transform: translateY(-50%);
  }
  
  .text {
-    display: block;
-    max-width: 300px;
- }
- 
- p {
-    font-size: 24px;
-    font-weight: 800px;
-    margin-top: 0;
- }
- 
- .close-btn {
     position: absolute;
-    top: 10px;
-    right: 10px;
-    color: gray;
-    text-decoration: none;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
  }
- 
