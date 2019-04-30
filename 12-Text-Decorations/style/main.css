@@ -1,0 +1,20 @@
+
+
+
+
+h1{
+    font-family: 'Lobster';
+}
+
+.normal{
+    font-family: 'PT Sans';
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.italic{
+    font-style:italic;
+}
+
