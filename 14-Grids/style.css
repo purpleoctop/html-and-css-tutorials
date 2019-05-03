@@ -20,22 +20,10 @@ section > div {
     background-color: aqua;
 }
 
-.header{
-grid-column-start: 1;
-grid-column-end:3;
+.header , .footer{
+grid-column: 1/4;
 
 }
 
-.footer{
-    grid-column-start: 1;
-    grid-column-end:3;
-    
-    }
 
- .col-3{
-        width:60%;
-        grid-column-start: 1;
-        grid-column-end:3;
-        justify-self: center;
-        
-}
+
