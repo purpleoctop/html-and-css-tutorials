@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+section{
+    width:600px;
+    height:600px;
+    margin:50px auto 0;
+    border: 1px solid red;
+    display:grid;
+    grid-gap:30px;
+}
+
+
+
+section > div {
+    background-color: aqua;
+}
+
+.header{
+grid-column-start: 1;
+grid-column-end:3;
+
+}
+
+.footer{
+    grid-column-start: 1;
+    grid-column-end:3;
+    
+    }
+
+ .col-3{
+        width:60%;
+        grid-column-start: 1;
+        grid-column-end:3;
+        justify-self: center;
+        
+}
