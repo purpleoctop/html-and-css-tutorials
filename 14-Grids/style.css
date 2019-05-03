@@ -7,11 +7,16 @@
 
 section{
     width:600px;
-    height:600px;
+    
     margin:50px auto 0;
     border: 1px solid red;
     display:grid;
-    grid-gap:30px;
+    grid-gap:3px;
+    grid-template-areas: "header header header"
+                         "menu menu sidebar"
+                         "content-left content-right sidebar "
+                         "content-bottom footer footer";
+    grid-template-rows:50px 80px repeat(2, 150px);
 }
 
 
@@ -21,15 +26,29 @@ section > div {
 }
 
 
-.col-3{
-    grid-column: span 3;
+
+.header{
+    grid-area:header;
+}
+.menu{
+    grid-area:menu;
 }
 
-.col-2{
-    grid-column: span 2;
+.sidebar{
+    grid-area:sidebar;
+}
+.content-left{
+    grid-area:content-left;
 }
 
-.row-2{
-    grid-row:span 2;
+.content-right{
+    grid-area:content-right;
+}
+
+.content-bottom{
+    grid-area:content-bottom;
+}
+.footer{
+    grid-area:footer;
 }
 
